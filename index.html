@@ -1,38 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Classwork</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" integrity="sha512-XcIsjKMcuVe0Ucj/xgIXQnytNwBttJbNjltBV18IOnru2lDPe9KRRyvCXw6Y5H415vbBLRm8+q6fmLUU7DfO6Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+        integrity="sha512-XcIsjKMcuVe0Ucj/xgIXQnytNwBttJbNjltBV18IOnru2lDPe9KRRyvCXw6Y5H415vbBLRm8+q6fmLUU7DfO6Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
 </head>
 <script src="https://kit.fontawesome.com/ec74f61f11.js" crossorigin="anonymous"></script>
 
 <body>
-   <h3><a href="/">Phinehas</a></h3>
-    
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="about.html">About</a></li>
-    </ul>
-    <h1>Hi, I am Phinehas</h1>
-    <h2>A Frontend Developer</h2>
-    <p>Welcome to my website! I am a passionate Frontend Developer with a knack for creating, engaging and user_friendly web applications</p>
+    <link rel="stylesheet" href="style.css">
 
-    <img src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?semt=ais_hybrid&w=740&q=80" alt="" width="300" >
+    <header>
+        <nav>
+            <h3><a href="/">Phinehas</a></h3>
 
-    <u>
-        <li><a href="#">Hire Me</a></li>
-        <li><a href="contact.html">Let's Talk</a></li>
+            <ul>
+                <li><a class="navlink" href="/">Home</a></li>
+                <li><a class="navlink" href="#contact">Contact</a></li>
+                <li><a class="navlink" href="#portfolio">Portfolio</a></li>
+                <li><a class="navlink" href="#gallery">Gallery</a></li>
+                <li><a class="navlink" href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <ul>
-            <li><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-            <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-        </ul>
-    </u>
+    <main>
+        <!-- Hero Section -->
+        <section>
+            <div class="hero">
+                <div>
+                    <h1 id="about">Hi, I am <span class="name">Phinehas</span></h1>
+                    <h2>Frontend Developer</h2>
+                    <p>Welcome to my website! I am a passionate Frontend Developer with a knack for creating, engaging
+                        and
+                        user_friendly web applications</p>
+                </div>
+
+                <img src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?semt=ais_hybrid&w=740&q=80"
+                    alt="" width="300">
+
+            </div>
+        </section>
+
+        <div>
+            <ul>
+                <li><a href="#" class="btn btn-primary">Hire Me</a></li>
+                <li><a href="contact.html" class="btn btn-secondary">Let's Talk</a></li>
+
+
+                <ul>
+                    <li><a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+        </div>
+
+
+        <!-- Gallery Section -->
+        <section>
+            <h3 id="gallery">Gallery Section</h3>
+
+            <div class="images">
+            <img src="/assets/images/pic1.jpg" width="300">
+            <img src="/assets/images/pic2.jpg" width="300">
+            <img src="/assets/images/pic3.jpg" width="300">
+            <img src="/assets/images/pic4.jpg" width="300">
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section>
+            <h3 id="contact">Contact</h3>
+
+            <form action="">
+
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username">
+
+                <br><br>
+
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+
+
+                <br><br>
+
+                <label for="phone">Phone</label><br>
+                <input type="tel" name="phone" id="phone" placeholder="Enter your phone number">
+
+                <br><br>
+                <label for="message">Message</label><br>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Enter your message"></textarea>
+
+                <br><br>
+
+                <!-- Second way -->
+                <button type="submit" class="btn btn-primary">Submit</button>
+
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Phinehas. All rights reserved.</p>
+    </footer>
+
 </body>
+
 </html>

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/fregan-serif');
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Fregan Serif', sans-serif;
+}
+h1{
+    font-size: 60px;
+   }
+   h2{
+    font-size: 40px;
+   }
+a{
+    text-decoration: none;
+     color: #3e1a10;
+}
+
+h3 {
+   text-align: start;
+   margin: 50px 10px 10px 10px;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
+
+.hero{
+  text-align: center;
+    color: #f0e4e4;
+  background-color:  #3e1a10;
+}
+
+.name{
+    color: #ef5353;
+    text-decoration: underline;
+}
+
+.btn{
+   display: inline-block;
+   padding: 10px 20px;
+   font-size: 25px;
+   border-radius: 8px;
+   border: 1px solid #3e1a10;
+}
+
+.btn-primary{
+    background-color:#3e1a10;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color:#6d3636;;
+    color:  #ede4e2;
+    border: 1px solid #3e1a10;
+}
+
+.btn-secondary{
+    background-color: #ec7171;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #ce9999;
+    color:  #ede4e2;
+    border: 1px solid #3e1a10;
+}
+
+.navlink, .navlink:visited{
+    color: #3e1a10;
+}
+
+.navlink:hover{
+    color: #ef5353;
+    text-decoration: underline;
+}
